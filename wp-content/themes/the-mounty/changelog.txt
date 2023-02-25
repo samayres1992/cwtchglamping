@@ -1,0 +1,111 @@
+Version 1.2.6 
+    Added:
+        - WP 6.0.2 compatibility
+        - Booked 2.4 compatibility
+    Fixed:
+        - Theme styles
+        - Update plugins to their latest versions
+    Changed:
+        - Theme content
+
+Version 1.2.5 
+    Added:
+        - WP 6.0 compatibility
+
+    Fixed:
+        - Theme styles
+        - Update plugins to their latest versions
+
+    Changed:
+    -    Theme content
+
+Version 1.2.4
+    Added:
+        - WP 5.9 compatibility
+
+    Fixed:
+        - Theme styles
+
+    Changed:
+        - Theme content
+
+Version 1.2.3
+	Added:
+		- WP 5.8.1 compatibility
+		- PHP 8 compatibility
+
+	Fixed:
+		- Update plugins to their latest versions
+
+	Changed:
+		- Update demo data
+
+
+Version 1.2.2
+    Added:
+        - WP 5.5.1 compatibility
+        - PHP 7.4 compatibility
+
+    Fixed:
+        - Update plugins to their latest versions
+
+    Changed:
+        - Update demo data
+
+Version 1.2.1
+    Added:
+        - Compatibility with elegro Crypto Payment plugin
+        - Compatibility with Date & Time Field plugin
+
+    Changed:
+        - Update demo data
+
+    Fixed:
+        - Improve compatibility with WP 5.4.1
+        - Update plugins to their latest versions
+
+    Removed:
+        - Contact Form 7 Datepicker plugin
+
+Version 1.2.0
+    Fixed:
+        - Update plugins to their latest versions
+        - Improve theme styles
+     Added:
+        - Home page 3
+        - Compatibility with ThemeREX Updater plugin
+    Changed:
+        - Update demo data
+
+Version 1.1.1
+    Fixed:
+        - Scripts libraries updated
+        - Update plugins to their latest versions
+        - Compatibility with Woocommerce 3.7.0
+        - Compatibility with WP 5.2.2
+        - Compatibility with RevSlider 6.0.9
+        - Compatibility with WP BAkery 6.0.5
+        - Update plugins to their latest versions
+
+     Added:
+        - Service Plus
+
+Version 1.1
+    Added:
+        - Compatibility with Gutenberg and other PageBuilders
+        - WP GDPR Compliance plugin
+        - Alert to Demo data installation
+        - Privacy Policy page
+
+    Fixed:
+        - Compatibility with WP 4.9.8
+        - Update plugins to their latest versions
+        - Improve theme styles
+        - Update documentation
+
+    Changed:
+        - Update default contact forms to make them GDPR-compliant
+        - Update demo data
+
+Version 1.0.0
+        - Release

@@ -1,0 +1,99 @@
+/* Icons fix */
+.booked-icon {
+	padding-left: 1px;
+}
+
+/* Calendar */
+table.booked-calendar tr.days th {
+	border: none !important;
+}
+table.booked-calendar td,
+table.booked-calendar td+td {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+/* Booked form */
+body .booked-form .field .checkbox-radio-block label {
+	padding-left: 1.4em;
+}
+body .booked-form .field .checkbox-radio-block label:before {
+	line-height: 0.65em;
+}
+
+/* Login form */
+#booked-page-form .login-remember input {
+	display: inline;
+	vertical-align:middle;
+}
+
+#booked-profile-page i.fa {
+	color: inherit;
+}
+
+/* User profile header */
+#booked-profile-page div.booked-profile-header {
+	padding: 0 0 2em;
+}
+#booked-profile-page div.booked-user-avatar {
+	@include box(50px, 50px);
+}
+#booked-profile-page div.booked-user-avatar img {
+	@include border-round;
+}
+#booked-profile-page .booked-user h3 strong {
+	font-weight:400;
+}
+
+/* User profile content */
+#booked-profile-page div.booked-tab-content {
+	@include border-sharp;
+}
+
+
+body .booked-calendar-wrap .booked-appt-list .timeslot:last-child{
+  padding-bottom: 17px;
+}
+body table.booked-calendar th { 
+  border-width: 0 0 1px 0;
+}
+
+
+/* Version 2.4 */
+body div.booked-calendar-wrap div.booked-calendar,
+body .booked-appt-list{
+	box-shadow: none;
+	border-radius: 0;
+}
+body div.booked-calendar-wrap div.booked-calendar .bc-head .bc-row.top .bc-col{
+	border-bottom: 0;
+}
+body div.booked-calendar-wrap div.booked-calendar .bc-head .bc-row.days .bc-col{
+	font-weight: 400;
+}
+body div.booked-calendar-wrap div.booked-calendar .bc-body .bc-row.week .bc-col .date .number{
+	width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.3rem !important;
+    font-size: 1.5rem;
+    margin: 0;
+    transform: translate(-50%, -50%);
+	@media (max-width: 479px) {
+		width: 2.5rem;
+		height: 2.5rem;
+		line-height: 2.3rem !important;
+	}
+}
+.booked-calendar .bc-body{
+	padding: 1px;
+}
+body #booked-profile-page input[type=submit],
+body #booked-profile-page button,
+body .booked-list-view input[type=submit],
+body .booked-list-view button,
+body .booked-calendar input[type=submit],
+body .booked-calendar button,
+body .booked-modal input[type=submit],
+body .booked-modal button {
+  border-radius: 30px;
+}
